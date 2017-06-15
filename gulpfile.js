@@ -81,7 +81,7 @@ gulp.task('sass', function () {
 gulp.task('watch', function() {
     // gulp.watch('./app/less/**/*.less', ['less']);
     gulp.watch('./app/pug/**/*.pug', ['pug']);
-    gulp.watch('./app/sass/**/*.scss', ['sass']);
+    gulp.watch('./app/sass/**/*.sass', ['sass']);
 });	
 
 
