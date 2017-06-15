@@ -3,7 +3,7 @@ var runSequence = require('run-sequence');
 var browserSync = require("browser-sync").create();
 
 // Styles
-var less = require('gulp-less');
+// var less = require('gulp-less');
 var autoprefixer = require("gulp-autoprefixer");
 var sourcemaps = require('gulp-sourcemaps');
 
@@ -79,7 +79,7 @@ gulp.task('sass', function () {
   WATCH
 ------------------------------------ */
 gulp.task('watch', function() {
-    gulp.watch('./app/less/**/*.less', ['less']);
+    // gulp.watch('./app/less/**/*.less', ['less']);
     gulp.watch('./app/pug/**/*.pug', ['pug']);
     gulp.watch('./app/sass/**/*.scss', ['sass']);
 });	
